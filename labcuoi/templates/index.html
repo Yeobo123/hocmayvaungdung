@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trực quan hóa kết quả KNN</title>
+</head>
+<body>
+    <h1>Kết quả của mô hình KNN</h1>
+    <p><strong>Accuracy:</strong> {{ accuracy }}</p>
+    <p><strong>Recall:</strong> {{ recall }}</p>
+    <p><strong>Precision:</strong> {{ precision }}</p>
+    <div>{{ graph_html | safe }}</div>
+</body>
+</html>
